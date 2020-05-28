@@ -7,4 +7,4 @@
   - name: stop
     docker_container:
       name: quirky_ramanujan
-      state: started
+      state: stopped
