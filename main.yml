@@ -2,9 +2,6 @@
 - name: TEST!
   hosts: all
   become: yes
- 
-  tasks:
-  - name: obsolete container
-    docker:
-    name: optimistic_dewdney
-    state: stopped
+  docker:
+   name: optimistic_dewdney
+   state: stopped
