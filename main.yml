@@ -1,7 +1,10 @@
 ---
-- name: TEST!
+- name: KABO!
   hosts: all
-  become: yes
-  docker:
-   name: optimistic_dewdney
-   state: stopped
+ 
+  tasks:
+  
+  - name: stop
+    docker:
+      name: optimistic_dewdney
+      state: stopped
