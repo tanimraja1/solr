@@ -5,6 +5,6 @@
   tasks:
   
   - name: stop
-    docker:
+    docker_container:
       name: optimistic_dewdney
       state: stopped
