@@ -6,5 +6,5 @@
   
   - name: stop
     docker_container:
-      name: optimistic_dewdney
+      name: quirky_ramanujan
       state: stopped
