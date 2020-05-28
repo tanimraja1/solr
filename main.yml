@@ -1,0 +1,7 @@
+---
+
+
+- name: obsolete container
+  docker:
+    image: someuser/oldandbusted
+    state: stopped
