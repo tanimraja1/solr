@@ -7,5 +7,4 @@
   - name: stop
     docker_container:
       name: quirky_ramanujan
-      image: tomcat:latest
-      state: stopped
+      state: started
